@@ -1,0 +1,103 @@
+/* ============================================================
+   Plantillas de correo – Diseño Profesional Azul Oscuro
+   ============================================================ */
+
+.tt-email-container {
+    max-width: 620px;
+    margin: 0 auto;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.55;
+    color: #0a2540;
+    background: #f5f7fb;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* -------------------------
+   HEADER
+   ------------------------- */
+.tt-email-header {
+    background: #0a2540;
+    color: #ffffff;
+    padding: 32px;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    box-shadow: inset 0 -2px 0 rgba(255,255,255,0.1);
+}
+
+.tt-email-header h1 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+
+/* -------------------------
+   CONTENIDO
+   ------------------------- */
+.tt-email-content {
+    background: #ffffff;
+    padding: 32px;
+}
+
+.tt-email-section {
+    background: #f9fbff;
+    padding: 22px;
+    border-radius: 10px;
+    margin: 18px 0;
+    border-left: 4px solid #0a2540;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+/* Estados */
+.tt-email-success {
+    border-left-color: #27ae60;
+    background: #f3fff7;
+}
+
+.tt-email-error {
+    border-left-color: #d63031;
+    background: #fff5f5;
+}
+
+.tt-email-info {
+    border-left-color: #2980b9;
+    background: #f0f7ff;
+}
+
+/* Etiquetas */
+.tt-email-label {
+    font-weight: 600;
+    color: #0a2540;
+    display: inline-block;
+    width: 160px;
+    font-size: 14px;
+}
+
+
+/* -------------------------
+   TOTAL
+   ------------------------- */
+.tt-email-total {
+    font-size: 1.35em;
+    font-weight: 700;
+    color: #0a2540;
+    background: #e8f1ff;
+    padding: 18px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 22px 0 10px;
+    border: 1px solid #c4d7f2;
+}
+
+/* -------------------------
+   FOOTER
+   ------------------------- */
+.tt-email-footer {
+    text-align: center;
+    margin-top: 28px;
+    padding-top: 22px;
+    border-top: 1px solid #dbe2ec;
+    color: #4b5563;
+    font-size: 13px;
+}

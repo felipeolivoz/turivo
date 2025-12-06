@@ -1,0 +1,161 @@
+/* Colores empresariales */
+:root {
+    --tt-primary: #fc711d;
+    --tt-secondary: #093b5e;
+    --tt-primary-light: #ff8c42;
+    --tt-secondary-light: #0c4d7a;
+}
+
+.tt-admin-dashboard {
+    max-width: 1200px;
+}
+
+.tt-dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.tt-stat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    border-top: 4px solid var(--tt-primary);
+}
+
+.tt-stat-number {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--tt-primary);
+}
+
+.tt-dashboard-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.tt-quick-links-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.tt-quick-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--tt-secondary);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    border-top: 3px solid var(--tt-primary);
+}
+
+.tt-quick-link:hover {
+    background: var(--tt-secondary);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.tt-quick-link .dashicons {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.tt-admin-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.tt-form-section, .tt-list-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-top: 4px solid var(--tt-primary);
+}
+
+.tt-settings-info {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-left: 4px solid var(--tt-primary);
+}
+
+.tt-status-pending { color: #ffb900; font-weight: bold; }
+.tt-status-confirmed { color: #00a32a; font-weight: bold; }
+.tt-status-completed { color: var(--tt-secondary); font-weight: bold; }
+.tt-status-cancelled { color: #d63638; font-weight: bold; }
+
+.tt-bookings-container {
+    margin-top: 20px;
+}
+
+.tt-view-details {
+    cursor: pointer;
+    background: var(--tt-primary);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.tt-view-details:hover {
+    background: var(--tt-primary-light);
+}
+
+#tt-booking-modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.tt-modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    border-top: 4px solid var(--tt-primary);
+}
+
+.tt-close-modal {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--tt-secondary);
+}
+
+/* Botones con colores empresariales */
+.button-primary {
+    background: var(--tt-primary) !important;
+    border-color: var(--tt-primary) !important;
+}
+
+.button-primary:hover {
+    background: var(--tt-primary-light) !important;
+    border-color: var(--tt-primary-light) !important;
+}
